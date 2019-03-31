@@ -12,11 +12,6 @@
 	<div class="container">
 		<h1>Hello</h1>
 
-<!-- 		<?php if (isset($student)) {
-			echo "<h3>" . $student . "</h3>";
-		}
-		?> -->
-
 		<?php foreach ($users as $user) : ?>
 			<li>
 				<b>name:</b><a href="user/<?= $user->id; ?>"><?= $user->name; ?></a>, <b>email:</b> <?= $user->email; ?> 		
