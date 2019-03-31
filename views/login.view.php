@@ -1,3 +1,7 @@
+<?php require 'partials/header.php'; ?>
+
+<h1>Login</h1>
+
 <form method="POST" action="/login" >
   <div class="form-group" >
     <label for="email">Email address</label>
@@ -9,3 +13,5 @@
   </div>
   <button type="submit" class="btn btn-primary">Submit</button>
 </form>
+	
+<?php require 'partials/footer.php'; ?>

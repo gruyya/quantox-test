@@ -29,7 +29,7 @@ class LoginController
 
 			$row = $statement->fetch(PDO::FETCH_ASSOC);
 			Session::store($row['id'],  $row['email']);
-			return header("Location: /");
+			return header("Location: /students");
 
 		} else {
 			die('wrong username and password');

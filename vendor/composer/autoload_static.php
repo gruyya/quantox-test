@@ -18,6 +18,7 @@ class ComposerStaticInit334444ad7636a00d7f125047d707fd75
         'Request' => __DIR__ . '/../..' . '/core/Request.php',
         'Router' => __DIR__ . '/../..' . '/core/Router.php',
         'Session' => __DIR__ . '/../..' . '/core/Session.php',
+        'StudentsController' => __DIR__ . '/../..' . '/controllers/StudentsController.php',
     );
 
     public static function getInitializer(ClassLoader $loader)

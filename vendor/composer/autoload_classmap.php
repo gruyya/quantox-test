@@ -17,4 +17,5 @@ return array(
     'Request' => $baseDir . '/core/Request.php',
     'Router' => $baseDir . '/core/Router.php',
     'Session' => $baseDir . '/core/Session.php',
+    'StudentsController' => $baseDir . '/controllers/StudentsController.php',
 );
