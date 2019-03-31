@@ -1,3 +1,6 @@
 <?php
 
-echo 'hello';
+require 'vendor/autoload.php';
+require 'core/bootstrap.php';
+
+Connection::make($config['database']);
