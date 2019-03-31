@@ -11,5 +11,6 @@ return array(
     'Composer\\Autoload\\ComposerStaticInit334444ad7636a00d7f125047d707fd75' => $vendorDir . '/composer/autoload_static.php',
     'Connection' => $baseDir . '/core/database/Connection.php',
     'HomeController' => $baseDir . '/controllers/HomeController.php',
+    'Request' => $baseDir . '/core/Request.php',
     'Router' => $baseDir . '/core/Router.php',
 );

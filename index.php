@@ -9,7 +9,4 @@ $router = new Router();
 
 $router->load('routes.php');
 
-$uri = trim(parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
-$method = $_SERVER['REQUEST_METHOD'];
-
-$router->direct($uri, $method);
+$router->direct(Request::uri(), Request::method());
