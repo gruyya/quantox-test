@@ -10,14 +10,42 @@
 	
 <body>
 	<div class="container">
-		<h1>Hello</h1>
+		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+		  <a class="navbar-brand" href="/">App</a>
+		  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		    <ul class="navbar-nav mr-auto">
+		      <li class="nav-item active">
+		        <a class="nav-link" href="/">Home</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="users">Users</a>
+		      </li>
+		      <li class="nav-item active">
+		        <a class="nav-link" href="contact">Contact</a>
+		      </li>
+		    </ul>
+		    <ul class="navbar-nav mr-right">
+		      <?php if (isset($_SESSION['email'])) : ?>
+		      	<li class="nav-item active">
+		      	  <a class="nav-link" href="logout">Logout</a>
+		      	</li>
+		      <?php else: ?>
+		      	<li class="nav-item active">
+		      	  <a class="nav-link" href="loginShow">Login</a>
+		      	</li>
+		      	<li class="nav-item active">
+		      	  <a class="nav-link" href="registerShow">Register</a>
+		      	</li>
+		      <?php endif; ?>
+		    </ul>
+		  </div>
+		</nav>
 
-		<?php foreach ($users as $user) : ?>
+<!-- 		<?php foreach ($users as $user) : ?>
 			<li>
 				<b>name:</b><a href="user/<?= $user->id; ?>"><?= $user->name; ?></a>, <b>email:</b> <?= $user->email; ?> 		
 			</li>
-		<?php endforeach; ?>
-
+		<?php endforeach; ?> -->
 	</div>
 </body>
 
