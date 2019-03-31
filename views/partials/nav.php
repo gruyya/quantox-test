@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="/">App</a>
+  <a class="navbar-brand" href="/">QuantoxTest</a>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
@@ -18,9 +18,9 @@
       	<li class="nav-item active">
       	  <a class="nav-link" href="loginShow">Login</a>
       	</li>
-<!--       	<li class="nav-item active">
+      	<li class="nav-item active">
       	  <a class="nav-link" href="registerShow">Register</a>
-      	</li> -->
+      	</li>
       <?php endif; ?>
     </ul>
   </div>

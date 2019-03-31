@@ -14,6 +14,7 @@ return array(
     'HomeController' => $baseDir . '/controllers/HomeController.php',
     'LoginController' => $baseDir . '/controllers/LoginController.php',
     'QueryBuilder' => $baseDir . '/core/database/QueryBuilder.php',
+    'RegisterController' => $baseDir . '/controllers/RegisterController.php',
     'Request' => $baseDir . '/core/Request.php',
     'Router' => $baseDir . '/core/Router.php',
     'Session' => $baseDir . '/core/Session.php',

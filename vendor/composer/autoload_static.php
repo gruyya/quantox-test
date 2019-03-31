@@ -15,6 +15,7 @@ class ComposerStaticInit334444ad7636a00d7f125047d707fd75
         'HomeController' => __DIR__ . '/../..' . '/controllers/HomeController.php',
         'LoginController' => __DIR__ . '/../..' . '/controllers/LoginController.php',
         'QueryBuilder' => __DIR__ . '/../..' . '/core/database/QueryBuilder.php',
+        'RegisterController' => __DIR__ . '/../..' . '/controllers/RegisterController.php',
         'Request' => __DIR__ . '/../..' . '/core/Request.php',
         'Router' => __DIR__ . '/../..' . '/core/Router.php',
         'Session' => __DIR__ . '/../..' . '/core/Session.php',
