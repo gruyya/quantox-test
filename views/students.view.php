@@ -2,16 +2,18 @@
 
 <?php if (isset($_SESSION['email'])) : ?>
 
-<h1>Users</h1>
+<h1>Students</h1>
 
 <p> Welcome:  <?php echo $_SESSION['email']; ?></p>
 
-	<?php foreach ($users as $user) : ?>
+	<ul>
+	<?php foreach ($students as $student) : ?>
 		<li>
-			<b>name:</b><a href="user/<?= $user->id; ?>"><?= $user->name; ?></a>, <b>email:</b> <?= $user->email; ?> 		
+			<p><b>name: </b><a href="student/<?= $student->id; ?>"><?= $student->name; ?></a></p>
 		</li>
 	<?php endforeach; ?>
-
+	</ul>
+	
 <?php endif; ?>
 
 <?php require 'partials/footer.php'; ?>

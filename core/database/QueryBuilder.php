@@ -45,4 +45,11 @@ class QueryBuilder
 		}
 	}
 
+	public function selectGrades($id)
+	{
+		$statement = $this->pdo->prepare("select * from student_grade where student_id = '$id'");
+		$statement->execute();
+		return $statement->fetchAll(PDO::FETCH_OBJ);
+	}
+
 }

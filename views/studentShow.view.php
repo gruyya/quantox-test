@@ -3,7 +3,7 @@
 <h1>Student</h1>
 
 	<li>
-		<b>name:</b> <?= $user->name; ?>, <b>email:</b> <?= $user->email; ?> 		
+		<b>name:</b> <?= $student->name; ?>
 	</li>
 	
 <?php require 'partials/footer.php'; ?>
