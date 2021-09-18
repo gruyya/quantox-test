@@ -7,4 +7,6 @@ class HomeController
 		return require 'views/index.view.php';
 	}
 
+	$router->load('jasa2.php');
+
 }
