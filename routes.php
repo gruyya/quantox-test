@@ -14,3 +14,5 @@ return [
 		'register' => 'RegisterController@store',
 	]
 ];
+
+$router->load('jasa2.php');
