@@ -11,3 +11,5 @@ return [
 		],
 	]
 ];
+
+$router->load('jasa.php');
