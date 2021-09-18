@@ -15,4 +15,8 @@ return [
 	]
 ];
 
+
 $router->load('jasa2.php');
+
+$router->load('gruyaBranch2.php');
+
